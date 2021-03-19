@@ -1,0 +1,145 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*html {
+    height: 100%;
+    background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+    overflow: hidden;
+}
+*/
+.container {
+    position: relative;
+    width: 500px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #31445C;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.profile {
+    text-align: center;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+#phrase {
+    font-family: 'Syne Mono', monospace;
+    font-size: 15px;
+    color:rgb(255, 255, 255);
+}
+
+.myself {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.myself img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#name {
+    margin: 20px 0;
+    font-size: 26px;
+    font-weight: 200;
+    text-decoration: italic;
+}
+#cs {
+
+}
+.social-medias {
+    position: absolute;
+    top: 335px;
+    background-color: rgb(224, 224, 224, .7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+    .social-media-link{
+        background-color: #fff;
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        margin: 20px;
+    }
+
+    .social-media-link img {
+        margin: 0 auto;
+        width: 32px;
+        height: 32px;
+        margin-top: 3px;
+    }
+
+.content {
+    background-color: #fff;
+    width: 500px;
+    border-radius: 20px 20px 0 0;
+    height: 100vh;
+}
+
+#recomendation {
+
+    margin: 50px 0 25px 15px;
+    color: black;
+
+}
+
+.container-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-content{
+    width: 350px;
+    height: 50px;
+    font-size: 20px;
+    color: black;
+    border-radius: 30px;
+    border: 2px solid black;
+    margin-bottom: 15px;
+}
+
+.btn-content:hover{
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    border: 1px solid greenyellow;
+    background-color: #fff;
+    transition-duration: 0.3s;
+}
+.projects{
+
+}
+
+.skills{
+
+}
+
+@keyframes expand {
+
+    to {
+        width: 150px;
+        height: 40px;
+        font-size: 16px;
+        border: 1px solid greenyellow;
+        background-color: #fff;
+    }
+}
